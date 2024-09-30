@@ -1,0 +1,18 @@
+/project-directory
+│
+├── index.html               # File utama yang berisi struktur HTML dari portfolio.
+├── styles                   # Folder yang berisi file CSS untuk styling.
+│   └── style.css            # File CSS yang mendefinisikan tampilan dan nuansa.
+├── script                   # Folder yang berisi file JavaScript (jika ada).
+│   └── script.js            # File JavaScript untuk menambahkan interaktivitas (opsional).
+├── assets                   # Folder yang berisi gambar dan ikon.
+│   ├── profil-pras.jpg      # Foto profil Pras Tio Rifki Wijaya.
+│   ├── logosma-sumpiuh.png  # Logo SMA Negeri 1 Sumpiuh.
+│   ├── logokampus-amikom.png # Logo Universitas Amikom Purwokerto.
+│   ├── Logo-RevoU-5.png     # Logo Bootcamp MBKM Bach 6.
+│   ├── logo-bangkit.jpg      # Logo Bootcamp MBKM Bach 7.
+│   ├── Cybersecurity Fundamentals.png # Badge untuk Cybersecurity Fundamentals.
+│   ├── JavaScript Essentials 1.png # Badge untuk JavaScript Essentials 1.
+│   ├── Data_Sci_Business_Level_1.png # Badge untuk Data Science for Business - Level 1.
+│   └── AWS Knowledge Cloud Essentials.png # Badge untuk AWS Knowledge: Cloud Essentials.
+└── README.md                # Dokumen ini yang berisi informasi proyek.
