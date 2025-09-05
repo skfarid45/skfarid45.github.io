@@ -561,7 +561,21 @@ footer {
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;  
+    gap: 10px;           
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;         
+    list-style: none;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;          
+    text-align: center;
   }
 
   .education-card,
