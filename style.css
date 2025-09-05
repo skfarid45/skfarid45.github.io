@@ -521,3 +521,53 @@ footer {
   justify-content: center;
 }
 /* END OF FOOTER */
+
+/* Tablets */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-container,
+  .badge-container,
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  h1-hero {
+    font-size: 2rem;
+  }
+  h2-name {
+    font-size: 1.2rem;
+  }
+  h3-title {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .education-card,
+  .skill-card,
+  .badge-card {
+    width: 90%;
+    max-width: 300px;
+  }
+}

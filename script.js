@@ -57,7 +57,7 @@ function changeSlide(direction) {
     showSlide(currentSlide + direction);
 }
 
-// Optional: Auto change slide every 3 seconds
+// Optional: Auto change slide every 3 seconds 
 setInterval(() => {
     changeSlide(1);
 }, 3000);
